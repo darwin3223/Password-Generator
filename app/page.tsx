@@ -15,7 +15,8 @@ export default function Page() {
     <div style={{ backgroundColor: '#000' }}>
       <CenterComponent>
        <TitleSection /> 
-       <PasswordSection />
+      
+       <ButtonPassGenerator/>
       </CenterComponent>
       </div>
   );
